@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\cafel">
+      <UniqueIdentifier>{2b8817e3-47b0-46c6-861a-70f86c95006b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\cafel\basic">
+      <UniqueIdentifier>{813c0397-f3fc-41ac-b663-7e9dce7f4934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\cafel\components">
+      <UniqueIdentifier>{ad843168-68ce-4117-8c1f-7e0bacbe020a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\cafel\object">
+      <UniqueIdentifier>{51cbf61d-3634-4913-b93f-c7c99cce7b35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\cafel\system">
+      <UniqueIdentifier>{42b9a6d7-252f-4397-a533-18be6515b549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\cafel\utils">
+      <UniqueIdentifier>{b7b705d6-e501-41b4-89e6-3738c0361dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bsdf">
+      <UniqueIdentifier>{ff14ad19-ed23-4dd9-88e4-2381417924ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\emitter">
+      <UniqueIdentifier>{9f44e088-588a-4b82-8a0f-dd25aa62d9e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\factory">
+      <UniqueIdentifier>{261d6e2d-8342-4c12-8f66-b2450bf20de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\integrators">
+      <UniqueIdentifier>{72cd0930-9c70-4fd1-977f-0ea32e0602cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\object">
+      <UniqueIdentifier>{dace0886-8e91-48ee-b378-b20156503df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sampler">
+      <UniqueIdentifier>{37a69c60-c362-48ba-8d6f-1d6cb08acdf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shapes">
+      <UniqueIdentifier>{3fdcf33c-88b4-4f45-acf0-adbbc25525bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\trees">
+      <UniqueIdentifier>{83198877-b931-4468-a039-30031fdb3060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\trees\kd">
+      <UniqueIdentifier>{9fe1866d-121e-45a6-96e2-c50e5df6043a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\utils">
+      <UniqueIdentifier>{927efcf1-8c46-4408-8b2e-638d05d0ed8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\factory\treefactories">
+      <UniqueIdentifier>{df86f831-4800-49b5-925c-8ee85d99ec87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extra">
+      <UniqueIdentifier>{5396a036-5d51-4fa6-bed3-88c7b35c2b9b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cafelRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\defines.h">
+      <Filter>头文件\cafel</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\basic\AABB.hpp">
+      <Filter>头文件\cafel\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\basic\basic.h">
+      <Filter>头文件\cafel\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\basic\color.hpp">
+      <Filter>头文件\cafel\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\basic\interaction.hpp">
+      <Filter>头文件\cafel\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\basic\intersection.hpp">
+      <Filter>头文件\cafel\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\basic\ray.hpp">
+      <Filter>头文件\cafel\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\basic\vector.hpp">
+      <Filter>头文件\cafel\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\components\bsdf.h">
+      <Filter>头文件\cafel\components</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\components\emitter.h">
+      <Filter>头文件\cafel\components</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\components\integrator.h">
+      <Filter>头文件\cafel\components</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\components\sampler.h">
+      <Filter>头文件\cafel\components</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\components\shape.h">
+      <Filter>头文件\cafel\components</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\components\tree.h">
+      <Filter>头文件\cafel\components</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\utils\imageOutput.hpp">
+      <Filter>头文件\cafel\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\utils\warp.hpp">
+      <Filter>头文件\cafel\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\utils\xmlReader.h">
+      <Filter>头文件\cafel\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\system\api.h">
+      <Filter>头文件\cafel\system</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\system\element.h">
+      <Filter>头文件\cafel\system</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\system\factory.h">
+      <Filter>头文件\cafel\system</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\system\sceneNode.h">
+      <Filter>头文件\cafel\system</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\object\camera.h">
+      <Filter>头文件\cafel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\object\object.h">
+      <Filter>头文件\cafel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\object\sceneBuilder.h">
+      <Filter>头文件\cafel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\bsdf\diffuse.hpp">
+      <Filter>源文件\bsdf</Filter>
+    </ClInclude>
+    <ClInclude Include="source\bsdf\refractive.hpp">
+      <Filter>源文件\bsdf</Filter>
+    </ClInclude>
+    <ClInclude Include="source\bsdf\specular.hpp">
+      <Filter>源文件\bsdf</Filter>
+    </ClInclude>
+    <ClInclude Include="source\emitter\light.hpp">
+      <Filter>源文件\emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="source\factory\bsdffactory.hpp">
+      <Filter>源文件\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\factory\emitterfactory.hpp">
+      <Filter>源文件\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\factory\integratorfactory.hpp">
+      <Filter>源文件\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\factory\mainfactory.hpp">
+      <Filter>源文件\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\factory\objectfactory.hpp">
+      <Filter>源文件\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\factory\samplerfactory.hpp">
+      <Filter>源文件\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\factory\shapefactory.hpp">
+      <Filter>源文件\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\factory\treefactory.hpp">
+      <Filter>源文件\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\factory\treefactories\kdfactory.hpp">
+      <Filter>源文件\factory\treefactories</Filter>
+    </ClInclude>
+    <ClInclude Include="source\integrators\path.hpp">
+      <Filter>源文件\integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="source\trees\kd\kdnode.hpp">
+      <Filter>源文件\trees\kd</Filter>
+    </ClInclude>
+    <ClInclude Include="source\trees\kd\kdrange.hpp">
+      <Filter>源文件\trees\kd</Filter>
+    </ClInclude>
+    <ClInclude Include="source\trees\kd\kdtree.hpp">
+      <Filter>源文件\trees\kd</Filter>
+    </ClInclude>
+    <ClInclude Include="source\trees\kd\XYZSplit.hpp">
+      <Filter>源文件\trees\kd</Filter>
+    </ClInclude>
+    <ClInclude Include="source\shapes\sphere.hpp">
+      <Filter>源文件\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sampler\rawcolor.hpp">
+      <Filter>源文件\sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="source\object\camera.hpp">
+      <Filter>源文件\object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\object\object.hpp">
+      <Filter>源文件\object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\object\sceneBuilder.hpp">
+      <Filter>源文件\object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\shapes\Box.hpp">
+      <Filter>源文件\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\object\glSystem.h">
+      <Filter>头文件\cafel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\object\glSystem.hpp">
+      <Filter>源文件\object</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\basic\matrix.hpp">
+      <Filter>头文件\cafel\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="source\object\glShader.hpp">
+      <Filter>源文件\object</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\object\mdlHelper.h">
+      <Filter>头文件\cafel\object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\object\mdlHelper.hpp">
+      <Filter>源文件\object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\bsdf\mdlbsdf.hpp">
+      <Filter>源文件\bsdf</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sampler\texture.hpp">
+      <Filter>源文件\sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="source\shapes\model.hpp">
+      <Filter>源文件\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\cafel\basic\dataMat.hpp">
+      <Filter>头文件\cafel\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sampler\textureSynthesis.hpp">
+      <Filter>源文件\sampler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cafelRenderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bsdf\diffuse.cpp">
+      <Filter>源文件\bsdf</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bsdf\refractive.cpp">
+      <Filter>源文件\bsdf</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bsdf\specular.cpp">
+      <Filter>源文件\bsdf</Filter>
+    </ClCompile>
+    <ClCompile Include="source\emitter\light.cpp">
+      <Filter>源文件\emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\integrators\path.cpp">
+      <Filter>源文件\integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="source\utils\imageOutput.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="source\utils\xmlReader.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="source\trees\kd\kdnode.cpp">
+      <Filter>源文件\trees\kd</Filter>
+    </ClCompile>
+    <ClCompile Include="source\trees\kd\kdtree.cpp">
+      <Filter>源文件\trees\kd</Filter>
+    </ClCompile>
+    <ClCompile Include="source\trees\kd\XYZSplit.cpp">
+      <Filter>源文件\trees\kd</Filter>
+    </ClCompile>
+    <ClCompile Include="source\shapes\sphere.cpp">
+      <Filter>源文件\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sampler\rawcolor.cpp">
+      <Filter>源文件\sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="source\object\camera.cpp">
+      <Filter>源文件\object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\object\object.cpp">
+      <Filter>源文件\object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\object\sceneBuilder.cpp">
+      <Filter>源文件\object</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\toojpeg\toojpeg.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\tinnyxml\tinystr.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\tinnyxml\tinyxml.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\tinnyxml\tinyxmlerror.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\tinnyxml\tinyxmlparser.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="source\shapes\Box.cpp">
+      <Filter>源文件\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\utils\warp.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="source\object\glSystem.cpp">
+      <Filter>源文件\object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\object\mdlHelper.cpp">
+      <Filter>源文件\object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bsdf\mdlbsdf.cpp">
+      <Filter>源文件\bsdf</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sampler\texture.cpp">
+      <Filter>源文件\sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="source\shapes\model.cpp">
+      <Filter>源文件\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sampler\textureSynthesis.cpp">
+      <Filter>源文件\sampler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="cafelRenderer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="cafelRenderer.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

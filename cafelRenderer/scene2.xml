@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <integrator type="path" maxDepth="15"/>
+  <camera width="512" height="384" samples="300" yaw="-45" pitch="-30" zoom="45" speed="10" rspeed="20">
+    <position value="53.231505 , 45.023449 , 249.260147"/>
+    <front value="0.041150 , -0.042573 , -0.998246"/>
+    <worldUp value="0.0, 1.0, 0.0"/>
+  </camera>
+  
+  <object name="left">
+    <position value="0, 40.8, 81.6"/>
+    <shape type="box">
+      <extend value="1,40.8,81.6"/>
+      <axisX value="1,0,0"/>
+      <axisY value="0,1,0"/>
+      <axisZ value="0,0,1"/>
+    </shape>
+    <bsdf type="diffuse">
+      <sampler type="rawcolor">
+        <color value=".75, .25, .25"/>
+      </sampler>
+    </bsdf>
+  </object>
+
+  <object name="right">
+    <position value="120, 40.8, 81.6"/>
+    <shape type="box">
+      <extend value="1,40.8,81.6"/>
+      <axisX value="1,0,0"/>
+      <axisY value="0,1,0"/>
+      <axisZ value="0,0,1"/>
+    </shape>
+    <bsdf type="diffuse">
+      <sampler type="rawcolor">
+        <color value=".25, .25, .75"/>
+      </sampler>
+    </bsdf>
+  </object>
+
+  <object name="bottom">
+    <position value="60, 0, 81.6"/>
+    <shape type="box">
+      <extend value="75,1,81.6"/>
+      <axisX value="1,0,0"/>
+      <axisY value="0,1,0"/>
+      <axisZ value="0,0,1"/>
+    </shape>
+    <bsdf type="diffuse">
+      <sampler type="rawcolor">
+        <color value=".75, .75, .75"/>
+      </sampler>
+    </bsdf>
+  </object>
+
+  <object name="top">
+    <position value="60, 81.6, 81.6"/>
+    <shape type="box">
+      <extend value="75,1,81.6"/>
+      <axisX value="1,0,0"/>
+      <axisY value="0,1,0"/>
+      <axisZ value="0,0,1"/>
+    </shape>
+    <bsdf type="diffuse">
+      <sampler type="rawcolor">
+        <color value=".75, .75, .75"/>
+      </sampler>
+    </bsdf>
+  </object>
+
+  <object name="back">
+    <position value="60, 40.8, 0"/>
+    <shape type="box">
+      <extend value="60,40.8,1"/>
+      <axisX value="1,0,0"/>
+      <axisY value="0,1,0"/>
+      <axisZ value="0,0,1"/>
+    </shape>
+
+    <bsdf type="diffuse">
+      <sampler type="texture">
+        <path value="wall.jpg"/>
+      </sampler>
+    </bsdf>
+  </object>
+
+  <object name="ball">
+    <position value="73, 16.5, 78"/>
+    <shape type="sphere">
+      <radius value="16.5"/>
+    </shape>
+    <bsdf type="diffuse">
+      <sampler type="texture">
+        <path value="map.jpg"/>
+      </sampler>
+    </bsdf>
+  </object>
+
+  <object name="model">
+    <position value="90, 0, 120"/>
+    <scale value="0.03,0.03,0.03" />
+    <shape type="model">
+      <path value="table.obj"/>
+    </shape>
+    <bsdf type="diffuse">
+      <sampler type="rawcolor">
+        <color value=".25, .75, .25"/>
+      </sampler>
+    </bsdf>
+  </object>
+
+  <object name="light">
+    <position value="60, 81, 81.6"/>
+    <shape type="box">
+      <extend value="20,1,20"/>
+      <axisX value="1,0,0"/>
+      <axisY value="0,1,0"/>
+      <axisZ value="0,0,1"/>
+    </shape>
+    <bsdf type="diffuse">
+      <sampler type="rawcolor">
+        <color value="1,1,1"/>
+      </sampler>
+    </bsdf>
+    <emitter type="light">
+        <color value="12,12,12"/>
+    </emitter>
+  </object>
+
+</scene>
+
+
