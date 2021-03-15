@@ -26,5 +26,33 @@
 <span id="jump2"><b>2.opengl预览： </b><a href="#jump">返回目录</a></span><br>
 opengl预览采用glfw，为每个相应的几何体和bsdf定义顶点和片元着色器。<br/>
 相机移动由glfw响应，WSADQE对应前后左右上下移动，ZXCV控制相机左右上下旋转镜头。<br/>
+相机移动到满意视角后即可开始渲染。<br/>
 
-![图](pic/xml.png)
+![图](pic/gl.png)
+
+<br/>
+<span id="jump3"><b>3.内置几何体： </b><a href="#jump">返回目录</a></span><br>
+目前支持3种内置几何体，立方体，球体，和自定义模型。<br/>
+几何体为opengl提供基于三角形面片的顶点着色器，支持纹理映射。<br/>
+自定义模型采用assimp读入，测试用模型采用obj格式。<br/>
+
+![图](pic/image2.jpg)
+
+<br/>
+<span id="jump4"><b>4.内置bsdf： </b><a href="#jump">返回目录</a></span><br>
+目前支持3种内置bsdf，漫反射，镜面和透明。<br/>
+
+![图](pic/image1.jpg)
+
+另外，同样支持NVIDIA的材质定义语言MDL所定义的复杂材质。<br/>
+
+![图](pic/image3.jpg)
+
+<br/>
+<span id="jump5"><b>5.内置采样器： </b><a href="#jump">返回目录</a></span><br>
+目前支持3种内置采样器，纯色，贴图和纹理合成。<br/>
+采用纹理合成算法，输入小贴图可以合成一张大的纹理图。<br/>
+
+![图](pic/synthesis.png)
+
+![图](pic/image4.jpg)
