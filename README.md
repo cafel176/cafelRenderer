@@ -1,5 +1,5 @@
 # cafelRenderer
-一款仿Mitsuba的渲染器
+一款基于C++的仿Mitsuba渲染器
 
 ![图](pic/image0.jpg)
 
